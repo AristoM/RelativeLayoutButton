@@ -18,7 +18,7 @@ public class RelativeLayoutButtonActivity extends Activity {
         button1.setOnClickListener( new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Toast.makeText(RelativeLayoutButtonActivity.this, "RelativeLayoutButton clicked", Toast.LENGTH_LONG).show();
+				Toast.makeText(RelativeLayoutButtonActivity.this, "Clicked", Toast.LENGTH_LONG).show();
 				
 			}
 		});
